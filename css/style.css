@@ -71,6 +71,7 @@ h1, h2 {
 a  {
     text-align: center;
     display: block;
+    text-decoration: none;
 }
 
 .project-img {
