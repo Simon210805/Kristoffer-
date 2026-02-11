@@ -11,7 +11,7 @@ body {
 
 /* Sidebar */
 .sidebar {
-    width: 220px;
+    width: 270px;
     background-color: steelblue;
     color: white;
     padding: 15px;
@@ -22,8 +22,8 @@ position: sticky;
     top: 10px;
 }
 
-.sidebar h2 {
-    font-size: large;
+img{
+    border-radius: 10px;
 }
 
 .profile-pic {
@@ -46,6 +46,10 @@ position: sticky;
     padding: 20px;
     background-color: white;
     width: 100%;
+}
+
+.content p{
+    color: #16324F;
 }
 
 h1, h2 {
@@ -79,4 +83,8 @@ a  {
     height: 320px;
     background-color: black;
     margin-bottom: 10px;
+}
+
+.footer{
+    margin-top: 150px;
 }
