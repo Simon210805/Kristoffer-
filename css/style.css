@@ -85,6 +85,70 @@ a  {
     margin-bottom: 10px;
 }
 
+
+
+
+/* Buttons */
+.btn {
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background-color: darkblue;
+    transform: scale(1.05);
+}
+
+/* Project hover animation */
+.project {
+    transition: 0.3s ease;
+    border-radius: 10px;
+}
+
+.project:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    background-color: rgb(238, 236, 127);
+}
+
+
+/* Fade in animation */
+.fade-in {
+    opacity: 0;
+    transform: translateY(80px);
+    transition: all 1s ease;
+}
+
+.fade-in.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Back to top button */
+#topBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 12px;
+    border: none;
+    border-radius: 50%;
+    background-color: darkblue;
+    color: white;
+    cursor: pointer;
+    display: none;
+    transition: 0.3s;
+}
+
+#topBtn:hover {
+    background-color: steelblue;
+}
+
+
+
+
 .footer{
     margin-top: 150px;
 }
