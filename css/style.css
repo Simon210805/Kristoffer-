@@ -90,9 +90,10 @@ a  {
 .btn {
     background-color: steelblue;
     color: white;
-    padding: 10px;
+    padding: 6px 16px;
     border-radius: 8px;
     transition: 0.3s ease;
+    margin: 20px auto 10px auto; /* increased top margin */
 }
 
 .btn:hover {
@@ -126,13 +127,13 @@ a  {
 }
 
 /* Back to top button */
-#topBtn {
+#  {
     position: fixed;
     bottom: 20px;
     right: 20px;
     padding: 12px;
     border: none;
-    border-radius: 50%;
+    border-radius: 10px;
     background-color: darkblue;
     color: white;
     cursor: pointer;
